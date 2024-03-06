@@ -508,3 +508,24 @@ ul {
 .footer .container {
   width: 1440px;
 }
+/* .is-hidden {
+  visibility: hidden;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #fff;
+  width: 50%;
+  height: 500px;
+  position: relative;
+} */
