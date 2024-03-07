@@ -9,6 +9,10 @@
 .website {
   font-family: var(--global-font-family);
 }
+body {
+  font-family: var(--global-font-family);
+  letter-spacing: 0.03em;
+}
 
 .logo-footer::before {
   color: blue;
@@ -131,6 +135,14 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: var(--global-font-family);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  color: #fff;
+  width: 696px;
+  text-align: center;
 }
 
 .button-order {
@@ -508,18 +520,19 @@ ul {
 .footer .container {
   width: 1440px;
 }
-/* .is-hidden {
+.is-hidden {
   visibility: hidden;
 }
 .modal {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vw;
+  top: 80px;
+  left: 142px;
+  width: 915px;
+  height: 574px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 40px;
 }
 .modal-content {
   margin: 0 auto;
@@ -528,4 +541,28 @@ ul {
   width: 50%;
   height: 500px;
   position: relative;
-} */
+}
+.close-btn {
+  background-color: #fff;
+  border-radius: 177%;
+  color: #2e2f42;
+  outline: none;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border: none;
+}
+.pages a:hover,
+.pages a:focus {
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-logo:hover {
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list-social-icons:hover,
+.list-social-icons:focus {
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
