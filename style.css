@@ -158,11 +158,13 @@ ul {
   border: none;
 }
 
-.button-order:hover {
+.button-order:hover,
+.button-order:focus {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
   border: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .about li h3 {
@@ -347,8 +349,10 @@ ul {
   fill: #2e2f42;
 }
 
-.social-icons:hover {
+.social-icons:hover,
+.social-icons:focus {
   fill: #4d5ae5;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-links {
@@ -465,9 +469,6 @@ ul {
   fill: #8e8f99;
   display: flex;
   justify-content: space-evenly;
-}
-
-.customers-icons {
   display: flex;
   justify-content: space-between;
   margin-top: 72px;
@@ -478,8 +479,10 @@ ul {
   height: 100px;
 }
 
-.customers-icons:hover {
+.customers-icons:hover,
+.customers-icons:focus {
   fill: #4d5ae5;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover-rectangle:hover {
@@ -517,6 +520,13 @@ ul {
 .social-media-footer svg {
   fill: #f4f4fd;
 }
+
+.icon-links-footer:hover,
+.icon-links-footer:focus {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #2e2f42;
+}
+
 .footer .container {
   width: 1440px;
 }
@@ -557,7 +567,8 @@ ul {
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-logo:hover {
+.link-logo:hover,
+.link-logo:focus {
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -565,4 +576,16 @@ ul {
 .list-social-icons:focus {
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pages a.active-studio {
+  border-bottom: 6px solid #404bbf;
+  width: 48px;
+  height: 24px;
+  border-radius: 2px;
+}
+.pages a.active-portfolio {
+  border-bottom: 6px solid #404bbf;
+  width: 77px;
+  height: 24px;
+  border-radius: 2px;
 }
